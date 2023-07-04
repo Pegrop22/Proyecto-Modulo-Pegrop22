@@ -1,0 +1,67 @@
+@media(min-width: 1300px) {
+    *{
+        font-family: 'PT Sans', sans-serif;
+        margin: 0;
+    }
+    #menubarra{
+        margin: 0;
+        width: 100%;
+        background-color: #2E944B;
+        display: inline-block;
+    }
+    #menubarra li{
+        margin: 0;
+        display: inline-block;
+        text-align: center;
+    }
+    #menubarra a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 20px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    #menubarra li:hover{
+        background-color: #23773B;
+    }
+    #menubarra ul{
+        list-style: none;
+    }
+    #menubarra #logo{
+        text-align: left;
+        margin-right: 2rem;
+        margin-left: 0;
+    }
+    .linksdesple a{
+        text-decoration: none;
+        color: white;
+        border: 0;
+        padding: 20px;
+        display: none;
+    }
+    #menubarra li ul{
+        display: block;
+        background-color: #2E944B;
+    }
+    #menubarra li ul{
+        list-style: none;
+        position: absolute;
+        display: none;
+    }
+    #menubarra li:hover > ul{
+        display: block;
+    }
+    #Titulo h2{
+        margin: 1.2rem;
+        text-align: center;
+        font-size: 70px;
+    }
+    .ofertas{
+        background-color: #2E944B;
+        width: 70%;
+        height: 40%;
+        margin: auto;
+        margin-top: 1.2rem;
+    }
+}

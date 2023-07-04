@@ -1,0 +1,11 @@
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+.cuadradoLogin{
+    text-align: center;
+    width: 60px;
+    height: 100px;
+    background-color: #2E944B;
+}
